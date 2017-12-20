@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "=== build.sh ==="
-ls
+sh brain.sh
