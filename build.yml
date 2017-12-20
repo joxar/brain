@@ -6,4 +6,4 @@ image_resource:
 inputs:
   - name: src-brain
 run:
-  path: src-brain/build.sh
+  path: ./src-brain/build.sh
