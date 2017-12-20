@@ -1,0 +1,4 @@
+name: R2-D2
+memory: 128M
+random-route: true
+path: .

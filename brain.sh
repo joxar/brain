@@ -20,16 +20,15 @@ while true; do
     if [ "$(ls ${FACE_FILE})" != '' ]; then
         # voice
         cd "${VOICE_DIR}"
-	v=${array[`expr $RANDOM % ${arr_len}`]}
+        v=${array[`expr $RANDOM % ${arr_len}`]}
         node voice.js "${v}" &
-        
-	cd ${FACE_OUTPUT_DIR}
+
+        cd ${FACE_OUTPUT_DIR}
         /bin/rm -f ${FACE_FILE}
     fi
     sleep 10s
 done
 
-ps aux | grep opencv-face-camera | grep -v grep | awk '{ print "\
-kill -9", $2 }' | bash
+ps aux | grep opencv-face-camera | grep -v grep | awk '{ print "kill -9", $2 }' | bash
 
 exit 0
