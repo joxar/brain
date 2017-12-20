@@ -8,4 +8,4 @@ inputs:
   - name: src-brain
 
 run:
-  path: ./src-brain/ci/build.sh
+  path: ./src-brain/build.sh
