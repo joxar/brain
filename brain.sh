@@ -1,4 +1,7 @@
 #!/bin/bash
+set -e -x
+echo "=== brain.sh ==="
+
 cd ..
 readonly HOME_DIR=`pwd`
 readonly FACE_DIR=${FACE_HOME}
