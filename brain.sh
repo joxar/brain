@@ -1,10 +1,10 @@
 #!/bin/bash
 cd ..
 readonly HOME_DIR=`pwd`
-readonly FACE_DIR="${HOME_DIR}/face"
-readonly FACE_OUTPUT_DIR="${HOME_DIR}/face/output"
+readonly FACE_DIR=${FACE_HOME}
+readonly FACE_OUTPUT_DIR="${FACE_DIR}/output"
 readonly FACE_FILE="*.jpg"
-readonly VOICE_DIR="${HOME_DIR}/voice"
+readonly VOICE_DIR=${VOICE_HOME}
 
 array=(`ls -1 ${VOICE_DIR}/mp3 | sed s/\.MP3//g`)
 arr_len="${#array[@]}"
