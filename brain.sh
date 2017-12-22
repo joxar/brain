@@ -4,7 +4,8 @@ echo "=== brain.sh ==="
 
 cd ..
 readonly HOME_DIR=`pwd`
-readonly FACE_DIR=${FACE_HOME}
+readonly FACE_DIR=$FACE_HOME
+echo "=============================${FACE_HOME}"
 readonly FACE_OUTPUT_DIR="${FACE_DIR}/output"
 readonly FACE_FILE="*.jpg"
 readonly VOICE_DIR=${VOICE_HOME}
