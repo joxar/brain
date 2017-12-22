@@ -13,8 +13,7 @@ arr_len="${#array[@]}"
 # face
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages/:$PYTHONPATH"
 export PYTHONPATH="/usr/lib64/python2.7/site-packages:$PYTHONPATH"
-cd "/tmp/build/df6ad190/src-face"
-/usr/bin/python opencv-face-camera.py &
+/usr/bin/python /tmp/build/df6ad190/src-face/opencv-face-camera.py &
 
 # watch pict existence
 while true; do
