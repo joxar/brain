@@ -17,7 +17,7 @@ export PYTHONPATH="/usr/lib64/python2.7/site-packages:$PYTHONPATH"
 
 # watch pict existence
 while true; do
-    cd ${FACE_OUTPUT_DIR}
+    cd /tmp/build/df6ad190/src-face
     if [ "$(ls ${FACE_FILE})" != '' ]; then
         # voice
         cd "${VOICE_DIR}"
