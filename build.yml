@@ -9,7 +9,7 @@ image_resource:
   source: {repository: node}
 
 inputs:
-  - name: src-brain
+- name: src-brain
 
 run:
   path: ./src-brain/build.sh
